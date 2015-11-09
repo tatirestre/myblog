@@ -12,6 +12,16 @@ p, ol, ul, td {
   line-height: 18px;
 }
 
+img{
+
+  max-width: 30%;
+
+}
+
+.table-nonfluid {
+   width: auto !important;
+}
+
 pre {
   background-color: #eee;
   padding: 10px;

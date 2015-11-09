@@ -12,7 +12,7 @@
 
 <p>
   <strong>Post:</strong>
-  <%= @comment.post_id %>
+  <%= @comment.post.name if @comment.post %>
 </p>
 
 <%= link_to 'Edit', edit_comment_path(@comment) %> |
